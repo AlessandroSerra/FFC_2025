@@ -42,4 +42,4 @@ If you have any questions, suggestions, or issues regarding the content of this 
 
 ---
 
-University of Cagliari - FFC_2024 Tutoring Lessons Repository - Created and maintained by Alessandro Serra.
+University of Cagliari - FFC_2025 Tutoring Lessons Repository - Created and maintained by Alessandro Serra.
