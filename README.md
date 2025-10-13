@@ -10,7 +10,7 @@ The primary purpose of this repository is to facilitate learning and collaborati
 
 If you're a student looking to access materials from a specific session, simply navigate to the corresponding directory and explore the contents. You'll find code examples, exercises, and any additional resources provided during the session.
 
-Before looking up any lessons materials make sure you've setted up your Python Environment correctly. You can find an how-to-guide here [Setup_di_Python.pdf](Setup_di_Python.pdf).
+Before looking up any lessons materials make sure you've setted up your Python Environment correctly. You can find an how-to-guide here [Python Setup](Setup_di_Python.md).
 
 ## Content
 
