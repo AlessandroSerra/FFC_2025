@@ -45,7 +45,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
 4. Lascia il percorso di installazione predefinito, dovresti vedere una schermata del tipo:
 
 <p align="center">
-  <img src="imeges/W11_installation_path.png" alt="Installazione Miniforge" width="70%">
+  <img src="images/W11_installation_path.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Percorso di installazione.</em>
 </p>
