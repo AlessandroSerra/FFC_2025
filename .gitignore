@@ -1,0 +1,20 @@
+# ignora file di sistema mac
+.DS_store
+
+# file vscode
+__pychache__/
+
+# ignora cartella di codici prova
+Codici_Prova/
+
+# codici student
+Codici_Studenti/
+
+# Slides
+Slides_FFC/
+
+# old material
+old/
+
+# setup python
+setup/
