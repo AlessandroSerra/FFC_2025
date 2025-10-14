@@ -45,7 +45,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
 4. Lascia il percorso di installazione predefinito, dovresti vedere una schermata del tipo:
 
 <p align="center">
-  <img src="images/W11_installation_path.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/W11_installation_path.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Percorso di installazione.</em>
 </p>
@@ -53,7 +53,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
 5. <u>**IMPORTANTE**</u>: assicurati che queste opzioni siano **TUTTE** spuntate:
 
 <p align="center">
-  <img src="images/W11_env_path.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/W11_env_path.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Opzioni di Installazione.</em>
 </p>
@@ -61,7 +61,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
 6. Una volta finita l'installazione apri il menù start e nella barra di ricerca digita "Miniforge Prompt"
 
 <p align="center">
-  <img src="images/W11_miniforge_prompt.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/W11_miniforge_prompt.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Prompt di Miniforge.</em>
 </p>
@@ -75,7 +75,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
    e premendo invio, dovrebbe apparire una lista simile a quella in figura
 
 <p align="center">
-  <img src="images/W11_conda_info.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/W11_conda_info.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Risultato del comando scritto sopra.</em>
 </p>
@@ -91,8 +91,7 @@ Per installare Miniforge su sistemi operativi UNIX-like (MacOS, Linux o WSL) è 
 1. Aprire una finestra di terminale (su MacOS aprite Spotlight con Command + Spazio e digitate "Terminale") e eseguite il comando:
 
    ```bash
-   curl -L -O "https://github.com/conda-forge/miniforge/
-   releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+   curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
    ```
 
 2. Una volta che il comando finisce, eseguite anche il seguente
@@ -104,7 +103,7 @@ Per installare Miniforge su sistemi operativi UNIX-like (MacOS, Linux o WSL) è 
 3. Cliccate Invio scorrendo tutta la licenza:
 
    <p align="center">
-     <img src="images/Screenshot 2025-10-13 alle 11.21.34.png" alt="Installazione Miniforge" width="70%">
+     <img src="docs/assets/setup_images/Screenshot 2025-10-13 alle 11.21.34.png" alt="Installazione Miniforge" width="70%">
      <br>
      <em>Schermata licenza.</em>
    </p>
@@ -112,7 +111,7 @@ Per installare Miniforge su sistemi operativi UNIX-like (MacOS, Linux o WSL) è 
    e una volta arrivati alla fine scrivete "yes" e cliccate nuovamente invio per dare inizio all'installazione (potrebbe essere richiesta la password del vostro account);
 
    <p align="center">
-     <img src="images/Screenshot 2025-10-13 alle 11.21.49.png" alt="Installazione Miniforge" width="70%">
+     <img src="docs/assets/setup_images/Screenshot 2025-10-13 alle 11.21.49.png" alt="Installazione Miniforge" width="70%">
      <br>
      <em>Accettate la licenza.</em>
    </p>
@@ -120,7 +119,7 @@ Per installare Miniforge su sistemi operativi UNIX-like (MacOS, Linux o WSL) è 
 4. Appena compare la richiesta di dove installare il programma cliccate Invio senza modificare nulla
 
    <p align="center">
-     <img src="images/Screenshot 2025-10-13 alle 11.21.57.png" alt="Installazione Miniforge" width="70%">
+     <img src="docs/assets/setup_images/Screenshot 2025-10-13 alle 11.21.57.png" alt="Installazione Miniforge" width="70%">
      <br>
      <em>Percorso di Installazione.</em>
    </p>
@@ -128,7 +127,7 @@ Per installare Miniforge su sistemi operativi UNIX-like (MacOS, Linux o WSL) è 
 5. In ultima battuta, ad installazione completata, inserite "yes" e premete Invio quando il programma chiede se inizializzare Conda per la Shell corrente:
 
    <p align="center">
-     <img src="images/Screenshot 2025-10-13 alle 11.22.20.png" alt="Installazione Miniforge" width="70%">
+     <img src="docs/assets/setup_images/Screenshot 2025-10-13 alle 11.22.20.png" alt="Installazione Miniforge" width="70%">
      <br>
      <em>Inizializzare Conda per la Shell corrente.</em>
    </p>
@@ -146,7 +145,7 @@ L’editor di testo consigliato è **Visual Studio Code**, editor molto potente 
 Eseguite l'installazione, su Windows comparirà una finestra di installazione, accettate le condizioni e cliccate "avanti" sino a che non vi appare questa schermata:
 
 <p align="center">
-  <img src="images/Screenshot 2025-10-13 161245.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/Screenshot 2025-10-13 161245.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Opzioni da selezionare per VSCode</em>
 </p>
@@ -155,7 +154,7 @@ Selezionate le opzioni segnate ed andate avanti sino alla fine dell'installazion
 
 ## MacOS
 
-Per utenti Mac l'installazione non richiede la modifica o la spunta di alcuna casella, cliccate avanti per tutte le finestre e installate il software.\\
+Per utenti Mac l'installazione non richiede la modifica o la spunta di alcuna casella, cliccate avanti per tutte le finestre e installate il software.
 
 Una volta installato l'applicazione sarà ubicata nella cartella "Download", trascinatela in quella delle "Applicazioni" in modo che compaia nella schermata delle applicazioni.
 
@@ -186,7 +185,7 @@ Una volta completata l'intallazione create una cartella nella quale salverete i 
 A questo punto create un file di testo con il pulsante in figura, dategli il nome che volete ma deve finire con l'estensione ".py"
 
 <p align="center">
-  <img src="images/Screenshot 2025-10-13 161553.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/Screenshot 2025-10-13 161553.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Creazione file Python</em>
 </p>
@@ -196,7 +195,7 @@ Comparirà un popup che vi chiede di installare gli strumenti e le estensioni pe
 Una volta fatto cliccate "Seleziona Interprete" in basso a destra come in figura:
 
 <p align="center">
-  <img src="images/Screenshot 2025-10-13 161553 copy.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/Screenshot 2025-10-13 161553 copy.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Selezionare Interprete.</em>
 </p>
@@ -204,7 +203,7 @@ Una volta fatto cliccate "Seleziona Interprete" in basso a destra come in figura
 Vi apparirà una finestra in alto, scegliete l'opzione con "(base)" prima del nome:
 
 <p align="center">
-  <img src="images/Screenshot 2025-10-13 161553 copy 2.png" alt="Installazione Miniforge" width="70%">
+  <img src="docs/assets/setup_images/Screenshot 2025-10-13 161553 copy 2.png" alt="Installazione Miniforge" width="70%">
   <br>
   <em>Selezionare Interprete Pt.2.</em>
 </p>
