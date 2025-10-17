@@ -1,27 +1,21 @@
-# ignora file di sistema mac
-.DS_store
+# File di sistema macOS
+.DS_Store
 
-# file vscode
-__pychache__/
-*/__pychache__/
-**/__pychache__/
+# Cache Python
+__pycache__/
+*/__pycache__/
+**/__pycache__/
 
-# file mypy
+# Cache Mypy
 .mypy_cache/
 */.mypy_cache/
 **/.mypy_cache/
 
-# ignora cartella di codici prova
+# Cartelle da ignorare
 Codici_Prova/
-
-# codici student
 Codici_Studenti/
-
-# Slides
 Slides_FFC/
-
-# old material
 old/
 
-# setup python
+# Script di setup Python
 setup/
