@@ -20,6 +20,8 @@ The repository is organized into several directories, each corresponding to a sp
 
 0b. Brief introduction to the Python language [Introduzione al Python](Intro_Python.ipynb);
 
+1. Python recap with exercises [Python Recap](Lezione_17-10/);
+
 <!--
 
 1. Numerical integration methods with Trapezoid and Simpson's rule [Integrali Numerici](Lezione_26-03);
