@@ -208,6 +208,45 @@ Vi apparirà una finestra in alto, scegliete l'opzione con "(base)" prima del no
   <em>Selezionare Interprete Pt.2.</em>
 </p>
 
+Ora facciamo lo stesso procedimento ma creiamo un file con estensione _.ipynb_ (quella dei notebook jupyter):
+
+<p align="center">
+  <img src="docs/assets/setup_images/Screenshot 2025-10-17 113846.png" alt="Installazione Miniforge" width="70%">
+  <br>
+  <em>File .ipynb.</em>
+</p>
+
+Ora clicciamo in alto a destra la scritta "Select Kernel". Se compaiono finestre clicchiamo "Accetta" o "Installa" su tutto
+
+<p align="center">
+  <img src="./docs/assets/setup_images/Screenshot 2025-10-17 113945.png" alt="Installazione Miniforge" width="70%">
+  <br>
+  <em>Doppio click</em>
+</p>
+
+Dopo aver Accettato/Installato tutto quello che è comparso sullo schermo
+andiamo a selezionare "Python Environments..." e poi il nostro Python (quello con conda o base a fianco):
+
+<p align="center">
+  <img src="./docs/assets/setup_images/Screenshot 2025-10-17 114009.png" alt="Installazione Miniforge" width="70%">
+  <br>
+  <em>Environment di Python</em>
+</p>
+
+A questo punto all'interno del nostro file _.ipynb_ cliccliamo su "+ Code" E scriviamo un banale
+
+```python
+print("Hello, world")
+```
+
+Per poi cliccare il simbolino di esecuzione a fianco. A questo punto accettiamo tutto quello che ci propone di installare:
+
+<p align="center">
+  <img src="./docs/assets/setup_images/Screenshot 2025-10-17 120246.png" alt="Installazione Miniforge" width="70%">
+  <br>
+  <em>Environment di Python</em>
+</p>
+
 <u>**NB:** Per Linux e MacOS il percorso sarà diverso, l'importante è che ci siano la dicitura "(base)" a sinistra e "Conda" a destra.</u>
 
-Il gioco è fatto, ora abbiamo Python settato nel sistema!
+Il gioco è fatto, ora abbiamo Python settato nel sistema, sia per file regolari che per notebook jupyter!
