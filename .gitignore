@@ -4,6 +4,9 @@
 # file vscode
 __pychache__/
 
+# file mypi
+.mypy_cache/
+
 # ignora cartella di codici prova
 Codici_Prova/
 
