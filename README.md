@@ -22,9 +22,9 @@ The repository is organized into several directories, each corresponding to a sp
 
 1. Python recap with exercises [Python Recap](Lezione_17-10/);
 
-<!--
+2. Numerical integration methods with Trapezoid and Simpson's rule [Integrali Numerici](Lezione_24-10);
 
-1. Numerical integration methods with Trapezoid and Simpson's rule [Integrali Numerici](Lezione_26-03);
+<!--
 
 2. Solving numerically the pendulum using Eulero, Eulero-Cromer and Veocity-Verlet algorithms [ODE: Pendolo](Lezione_09-04);
 
