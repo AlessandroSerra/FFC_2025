@@ -10,6 +10,7 @@ def timer(funzione):
         return risultato
     return wrapper
 
+
 # @timer
 @njit
 def somma_quadrati(n):
