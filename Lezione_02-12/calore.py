@@ -65,7 +65,7 @@ def fitAmps(T, N_t, dt):
     y_fit = esponenziale(times, *popt)
     errs = np.sqrt(np.diag(pcov))
 
-    return max_Ts, y_fit, errs
+    return max_Ts, y_fit, popt, errs    # facciamoci restituire anche popt
 
 
 
@@ -89,14 +89,15 @@ T1 = 350    # K
 
 T = Solve(T0, T1, N_x, N_t, dt, k, h, bc='n')
 
-max_Ts, y_fit, errs = fitAmps(T, N_t, dt)
-
+max_Ts, y_fit, popt, errs = fitAmps(T, N_t, dt)     # prendiamo anche popt
+tau = popt[1]       # valore di tau
+err_tau = errs[1]   # errore su tau
 
 fig, axs = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
 
 ax = axs[0]
 ax.scatter(times, max_Ts, s=2, label="Ampiezze")
-ax.plot(times, y_fit, label="Fit", color="red")
+ax.plot(times, y_fit, label=f"Fit: $\\tau$ = ({tau:.1e}$\\pm${err_tau:.1e}) s", color="red",) # :.1e mette notazione scientifica con 1 cifra significativa
 ax.set_xlabel("t [s]")
 ax.set_ylabel("T [K]")
 ax.set_title("Fit del Decadimento delle Ampiezze")
