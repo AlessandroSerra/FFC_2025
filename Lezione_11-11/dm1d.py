@@ -184,7 +184,7 @@ def fit_maxwell_boltzmann(vel, params, K_last):
     K_B_eV = 8.617333262e-5    # eV/K
 
     # prendiamo solo l'ultimo 20% delle velocità in modo che siano a convergenza e con poco rumore
-    last_vel = vel[(len(vel) // 5):, :, :]
+    last_vel = vel[-(len(vel) // 5):]
     # qui sotto prima calcoliamo il modulo quadro delle velocità (np.linalg.norm)
     # e poi rendiamo tutto un array piatto 1D con .flatten()
     last_vel_mag = np.linalg.norm(last_vel, axis=2).flatten()
