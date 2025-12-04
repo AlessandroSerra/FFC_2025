@@ -40,7 +40,7 @@ Per installare Miniconda su Windows è necessario seguire i seguenti passaggi:
 1. Scaricare l'ultima versione del file eseguibile al link [<u>Miniforge.exe</u>](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe);
 
 2. Clicca due volte sul file appena scaricato;
-3. Seguendo le istruzioni sullo schermo clicca "next", accetta la licenza e installa per "All Users" (in seguito il programma chiederà la password di amministratore del pc);
+3. Seguendo le istruzioni sullo schermo clicca "next", accetta la licenza e installa per "Just You" (in seguito il programma chiederà la password di amministratore del pc);
 
 4. Lascia il percorso di installazione predefinito, dovresti vedere una schermata del tipo:
 
