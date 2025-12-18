@@ -26,15 +26,13 @@ The repository is organized into several directories, each corresponding to a sp
 
 3. Solving numerically the pendulum using Eulero, Eulero-Cromer and Veocity-Verlet algorithms [ODE: Pendolo](Lezione_04-11);
 
-<!--
+4. Fitting and analyzing experimental data in Python [Curve Fitting](Lezione_11-11);
 
-3. Solving numerically the two body orbit using Velocity-Verlet algorithm [ODE: Pianeti](Lezione_16-04);
+5. Solving numerically the Heat Equation with the FTCS Method [PDE: Equazione del Calore](Lezione_02-12);
 
-4. Fitting and analizing experimental data in Python [Curve Fitting](Lezione_30-04);
+6. Solving Poisson Equation with Iterative Methods [PDE: Equazione di Poisson](Lezione_09-12);
 
-5. Solving numerically the Heat Equation with the FTCS Method [PDE: Equazione del Calore](Lezione_30-04).
-
--->
+7. Introduction to Monte Carlo Methods and Metropolis Algorithm [Monte Carlo](Lezione_16-12);
 
 More coming soon...
 
