@@ -34,8 +34,6 @@ The repository is organized into several directories, each corresponding to a sp
 
 7. Introduction to Monte Carlo Methods and Metropolis Algorithm [Monte Carlo](Lezione_16-12);
 
-More coming soon...
-
 ## Feedback and Support
 
 If you have any questions, suggestions, or issues regarding the content of this repository, feel free to write me an email at a.serra132@studenti.unica.it or to search me up in person.
